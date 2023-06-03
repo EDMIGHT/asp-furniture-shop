@@ -1,0 +1,29 @@
+# Папки
+furniture-shop/bin/
+furniture-shop/obj/
+furniture-shop/Migrations/
+furniture-shop/Pages/
+
+# Файлы
+*.user
+/appsettings.Development.json
+/appsettings.json
+/dbsettings.json
+
+# Исключить все файлы NuGet
+**/packages/*
+
+# Игнорировать временные файлы Visual Studio
+*.vs/
+
+# Игнорировать файлы журнала
+*.log
+
+# Игнорировать файлы отладки
+*.pdb
+
+# Игнорировать файлы кэша ReSharper
+_resharper/
+
+# Игнорировать файлы Visual Studio Code
+.vs/

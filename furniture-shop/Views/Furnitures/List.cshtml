@@ -1,0 +1,19 @@
+﻿<h1>Всі меблі</h1>
+<div class="row mt-5 mb-2">
+  @{
+    foreach (var furniture in Model.allFurnitures)
+    {
+      <div class="col-lg-4">
+        <img class="img-thumbnail" src="@furniture.img"
+             alt="@furniture.name" />
+        <h2>@furniture.name</h2>
+        <p>@furniture.shortDesc</p>
+        <p>Ціна: @furniture.price.ToString("c")</p>
+        <p>
+          <a class="btn btn-warning"
+             href="#">Детальніше</a>
+        </p>
+      </div>
+    }
+  }
+</div>
